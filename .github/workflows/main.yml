@@ -1,0 +1,14 @@
+repo\
+├── .github\
+│   └── workflows\
+│       ├── android.yml              ← 正式构建脚本
+│       └── bootstrap-android.yml    ← 引导脚本(只用一次)
+├── www\
+│   └── index.html                   ← 整个 app(最重要)
+├── .gitignore
+├── android-build.gradle.template
+├── android-build.gradle.txt
+├── capacitor.config.json
+├── package.json
+├── prepare_android.py
+└── README.md
